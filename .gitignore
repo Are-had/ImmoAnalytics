@@ -1,0 +1,35 @@
+# Ignorer tous les fichiers CSV et TXT 
+*.csv 
+*.txt 
+ 
+
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
+# Mais garder la structure des dossiers 
+!.gitkeep 
